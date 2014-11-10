@@ -1,7 +1,8 @@
-{% extends 'layout.html.twig' %}
+{% extends 'pagelayout.html.twig' %}
 {% block title %}{{ title }}{% endblock %}
-{% block content %}
+{% block pagecontent %}
 {% for section in sections %}
+  {% if section.anchor %}<a name="{{ section.anchor }}"></a>{% endif %}
   {% include ('sections/' ~ section.class ~ '.html.twig') with section %}
 {% endfor %}
 {% endblock %}
