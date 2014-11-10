@@ -2,7 +2,29 @@
 
 {% block content %}
 
+{#
+<nav class="navbar navbar-default navbar-inverse" id="pagesnav">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#fakelink">Products</a></li>
+      <li><a href="#fakelink">Features</a></li>
+      <li><a href="#fakelink">Pricing</a></li>
+      <li><a href="#fakelink">About</a></li>
+    </ul>
+  </div>
+</nav>
+#}
+
 {% block pagecontent %}
 {% endblock %}
 
 {% endblock %}
+{#% block stylesheets %}
+{{ parent () }}
+<style type="text/css">
+#pagesnav {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+</style>
+{% endblock %#}
