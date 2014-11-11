@@ -12,9 +12,16 @@
         </div>
         <div class="col-md-8">
           <h3>{{ item.author }}</h3>
-          <div class="post-body">
-            {{ item.text | markdown }}
-          </div>
+          {% if item.video is defined %}
+            <div class="flex-video widescreen">
+              <iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/{{ item.video.id }}?rel=0"></iframe>
+            </div>
+          {% endif %}
+          {% if item.text is defined %}
+            <div class="post-body">
+              {{ item.text | markdown }}
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
