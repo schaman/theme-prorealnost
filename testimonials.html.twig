@@ -1,6 +1,16 @@
 {% extends 'post.html.twig' %}
 
 {% block content %}
+<section class="bg-primary">
+  <div class="container">
+    <p class="lead">
+      Ты выпускник?
+    </p>
+    <p>
+      Мы будем благодарны, если ты напишешь отзыв о тренинге на <a href="mailto:spasibo@prorealnost.com">spasibo@prorealnost.com</a>
+    </p>
+  </div>
+</section>
 {% for item in sections | reverse %}
   <section class="post testimonial {{ loop.index is odd ? 'odd' }}">
     <div class="container">
