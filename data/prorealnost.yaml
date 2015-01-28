@@ -1,0 +1,63 @@
+header:
+  class: header-md-light
+  logo: prorealnost-textlogo.jpg
+  menu:
+    - 
+      title: Узнать больше
+      path: front_page_show
+      params: {'slug': 'learnmore'}
+    - 
+      title: Блог
+      path: front_blog
+      params: {'host': 'prorealnost.com'}
+    - 
+      title: Книга
+      path: front_offer_show
+      params: {'slug': 'ksbu'}
+
+footer:
+  class: footer-1
+  first:
+    title: **Ты** можешь больше
+    text: |
+      _«Это было одно из самых важных переживаний в жизни»_
+
+      _«Вся жизнь разделилась на до и после»_
+
+      _«Я никогда не буду таким как прежде»_
+
+      [Отзывы →](testimonials)
+  navs:
+    - title: Категории
+      menu:
+        - 
+          title: Узнать больше
+          path: front_page_show
+          params: {'slug': 'learnmore'}
+        - 
+          title: Блог
+          path: front_blog
+          params: {'host': 'prorealnost.com'}
+        - 
+          title: Книга
+          path: front_offer_show
+          params: {'slug': 'ksbu'}
+    - title: Следуй за нами
+      menu:
+        - 
+          title: Vk
+          url: https://vk.com/prolubovv
+        - 
+          title: Facebook
+          url: https://www.facebook.com/ProRealnost.ProLubov
+        - 
+          title: Twitter
+          url: https://twitter.com/_ProLubov
+        - 
+          title: Instagram
+          url: http://instagram.com/_prolubov
+  last:
+    title: Запишись
+    url: /
+    text: |
+      или [Узнай Больше →](learnmore)

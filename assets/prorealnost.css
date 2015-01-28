@@ -23,3 +23,168 @@ height: 100%;
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
 .flex-video { padding-top: 0; }
 }
+
+
+.section {
+  padding: 100px 0;
+}
+
+.head {
+  padding: 200px 0;
+}
+
+body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+}
+
+body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+}
+
+body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+body h4 {
+  font-size: 1.25em;
+}
+
+body h5 {
+  font-size: 1em;
+}
+
+body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+body p, body blockquote, body ul, body ol, body dl, body table, body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.bg-turquoise {
+  background: #1ABC9C;
+}
+.bg-green-sea {
+  background: #16A085;
+}
+.bg-emerland,.bg-emerald {
+  background: #2ECC71;
+}
+.bg-nephritis {
+  background: #27AE60;
+}
+.bg-peter-river {
+  background: #3498DB;
+}
+.bg-belize-hole {
+  background: #2980B9;
+}
+.bg-amethyst {
+  background: #9B59B6;
+}
+.bg-wisteria {
+  background: #8E44AD;
+}
+.bg-wet-asphalt {
+  background: #34495E;
+}
+.bg-midnight-blue {
+  background: #2C3E50;
+}
+.bg-sun-flower {
+  background: #F1C40F;
+}
+.bg-orange {
+  background: #F39C12;
+}
+.bg-carrot {
+  background: #E67E22;
+}
+.bg-pumpkin {
+  background: #D35400;
+}
+.bg-alizarin {
+  background: #E74C3C;
+}
+.bg-pomegranate {
+  background: #C0392B;
+}
+.bg-clouds {
+  background: #ECF0F1;
+}
+.bg-silver {
+  background: #BDC3C7;
+}
+.bg-concrete {
+  background: #95A5A6;
+}
+.bg-asbestos {
+  background: #7F8C8D;
+}
+.text-turquoise {
+  color: #1ABC9C;
+}
+.text-green-sea {
+  color: #16A085;
+}
+.text-emerland, .text-emerald {
+  color: #2ECC71;
+}
+.text-nephritis {
+  color: #27AE60;
+}
+.text-peter-river {
+  color: #3498DB;
+}
+.text-belize-hole {
+  color: #2980B9;
+}
+.text-amethyst {
+  color: #9B59B6;
+}
+.text-wisteria {
+  color: #8E44AD;
+}
+.text-wet-asphalt {
+  color: #34495E;
+}
+.text-midnight-blue {
+  color: #2C3E50;
+}
+.text-sun-flower {
+  color: #F1C40F;
+}
+.text-orange {
+  color: #F39C12;
+}
+.text-carrot {
+  color: #E67E22;
+}
+.text-pumpkin {
+  color: #D35400;
+}
+.text-alizarin {
+  color: #E74C3C;
+}
+.text-pomegranate {
+  color: #C0392B;
+}
+.text-clouds {
+  color: #bdc3c7;
+}
+.text-silver {
+  color: #BDC3C7;
+}
+.text-concrete {
+  color: #95A5A6;
+}
+.text-asbestos {
+  color: #7F8C8D;
+}
