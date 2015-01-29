@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>ПроРеальность</title>
 
     <!-- Loading Bootstrap -->
     <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -80,12 +80,13 @@
       .twenty {
         background-image: url(u.png);
         width: 900px;
-        height: 400px;
+        height: 500px;
         background-size: 100% auto;
         background-position: top center;
         padding: 110px 65px;
         color: #252525;
         margin: auto;
+        position: relative;
       }
       .circle
       {
@@ -113,6 +114,12 @@
         margin: 0 auto;
         width: 770px;
       }
+      .examples {
+        background-image: url(graduates-bg.jpg);
+      }
+      .examples .table {
+        background: white;
+      }
     </style>
   </head>
   <body>
@@ -122,12 +129,19 @@
         <p align="justify">Прореальность — это тренинг <a href="#me" style="color:#aaaaff;">Николая Воробьёва</a> для того, <b>кто готов</b> менять свою жизнь, чтобы <b>быть вдохновлённым</b>, ставить перед собой <b>смелые цели</b>, и достигать <b>прорывных результатов</b> по-настоящему легко и с удовольствием.</p>
       </div>
       <div class="twenty">
-        <h2 class="text-center text-primary">Инструкция</h2>
-        <p>20 шагов, которые ты можешь сделать уже сегодня, чтобы привести свою жизнь в порядок</p>
-        <form style="margin-top:40px;">
+        <div>
+          <h2 class="text-center text-primary">Инструкция</h2>
+          <p class="text-center" style="font-size: 20px;"><b>20 шагов</b>, которые ты можешь сделать уже <b>сегодня</b>,<br/>чтобы привести свою <b>жизнь в порядок</b></p>
+        </div>
+        <img src="step3.png" style="position: absolute; top: 120px; left: 70px; width:150px; height:100px;"/>
+        <form>
           <div class="form-group">
-            <input class="form-control" name="email" type="email" placeholder="Введи емейл" style="width:445px;display:inline-block;"/>
-            <button class="btn btn-primary" style="display:inline-block;">Скачай инструкцию и начни новую жизнь</button>
+            <img src="step1.png" style="width:150px; display: block; margin-bottom: 5px;"/>
+            <nobr>
+              <input class="form-control" name="email" type="email" placeholder="Введи емейл" style="width:445px;display:inline-block;"/>
+              <button class="btn btn-primary" style="display:inline-block;">Скачай инструкцию и начни новую жизнь</button>
+            </nobr>
+            <img src="step2.png" class="pull-right" style="width:150px; display: block; margin-bottom: 5px; margin-right: 100px;"/>
           </div>
         </form>
       </div>
@@ -153,8 +167,7 @@
     <div class="line"></div>
     <div class="section">
       <div class="container">
-        <h1 class="text-center">Я докажу тебе, что</h1>
-        <hr/>
+        <p class="text-center"><img src="illprove.png" style="width: 600px;"/></p>
         <br/>
         <div class="row">
           <div class="col-xs-4">
@@ -196,17 +209,20 @@
               Ты перестанешь жалеть себя и других и позволять «снижать планку», довольствуясь тем, что есть, в ущерб тому, чего действительно хочется.
           </div>
         </div>
+        <hr/>
+        <p class="text-center"><img src="autograph.png" style="width: 400px;"/></p>
       </div>
     </div>
     <div class="line"></div>
     <div class="section examples">
       <div class="container">
-        <h1 class="text-center">Например:</h1>
+        <h1 class="text-center" style="text-shadow: #fff 1px 1px;">Например:</h1>
+        <br/>
         <table class="table table-striped">
           <tr>
             <td class="eg-name">Саша Кайсин</td>
             <td class="eg-text">
-              организует парусные регаты, cреди клинетов Альфа-банк и Порш
+              организует парусные регаты, cреди клиентов Альфа-банк и Порш
             </td>
           </tr>
           <tr>
